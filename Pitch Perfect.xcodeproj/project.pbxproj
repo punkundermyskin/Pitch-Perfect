@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		683252342312FDAE00B85A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683252332312FDAE00B85A04 /* AppDelegate.swift */; };
-		683252362312FDAE00B85A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683252352312FDAE00B85A04 /* ViewController.swift */; };
 		683252392312FDAE00B85A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 683252372312FDAE00B85A04 /* Main.storyboard */; };
 		6832523B2312FDAF00B85A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6832523A2312FDAF00B85A04 /* Assets.xcassets */; };
 		6832523E2312FDAF00B85A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6832523C2312FDAF00B85A04 /* LaunchScreen.storyboard */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		683252302312FDAE00B85A04 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		683252332312FDAE00B85A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		683252352312FDAE00B85A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		683252382312FDAE00B85A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6832523A2312FDAF00B85A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6832523D2312FDAF00B85A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,11 +58,10 @@
 		683252322312FDAE00B85A04 /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				683252332312FDAE00B85A04 /* AppDelegate.swift */,
 				683252452312FDFA00B85A04 /* RecordSoundsViewController.swift */,
 				683252472312FE0600B85A04 /* PlaySoundsViewController.swift */,
 				683252492312FE1300B85A04 /* PlaySoundsViewController+Audio.swift */,
-				683252332312FDAE00B85A04 /* AppDelegate.swift */,
-				683252352312FDAE00B85A04 /* ViewController.swift */,
 				683252372312FDAE00B85A04 /* Main.storyboard */,
 				6832523A2312FDAF00B85A04 /* Assets.xcassets */,
 				6832523C2312FDAF00B85A04 /* LaunchScreen.storyboard */,
@@ -146,7 +143,6 @@
 			files = (
 				6832524A2312FE1300B85A04 /* PlaySoundsViewController+Audio.swift in Sources */,
 				683252462312FDFA00B85A04 /* RecordSoundsViewController.swift in Sources */,
-				683252362312FDAE00B85A04 /* ViewController.swift in Sources */,
 				683252482312FE0600B85A04 /* PlaySoundsViewController.swift in Sources */,
 				683252342312FDAE00B85A04 /* AppDelegate.swift in Sources */,
 			);
